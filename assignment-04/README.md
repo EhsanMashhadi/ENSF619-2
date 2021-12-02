@@ -13,10 +13,12 @@ This repository is structured as follows:
 * The `utils` folder stores useful functions that are sourced by the main notebooks
 
 ## Getting started
-* To run the project
-* 1.Clone the repository
-* 2.Create new virtual environment called generative
-* If you are using Anaconda, you can set up a virtual environment as follows:
-* conda create -n generative python=3.6 ipykernel
-* 3.To install all the requirements use the command below:
-* pip install -r requirements.txt
+To run the project you can download the code or run it using Google CoLab:
+
+Using Colab:
+* Import Github link and run the vae file
+
+Using your own computer:
+* Clone the repository
+* Create new virtual environment 
+* Run `pip install -r requirements.txt` to install all the requirements
