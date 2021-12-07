@@ -59,8 +59,8 @@ class DataVisualizer:
         plt.ylabel("Loss Value")
         with pd.option_context('display.max_rows', None, 'display.max_columns', None):
             print(df_total_stats)
-        seaborn.lineplot(data=df_total_stats["train_loss"], label="training loss")
-        seaborn.lineplot(data=df_total_stats["val_loss"], label="validation loss")
+        seaborn.lineplot(data=df_total_stats["train_loss"], label="Training Loss")
+        seaborn.lineplot(data=df_total_stats["val_loss"], label="Validation Loss")
         plt.show()
 
     def show_ruc_auc(self, test_y, predictions):
